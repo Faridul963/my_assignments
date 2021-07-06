@@ -1,0 +1,80 @@
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+h1{
+    text-align: center;
+}
+span{
+    color: orange;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.third-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.fourth-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.footer-section-div{
+    background-color:rgb(1, 11, 15);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(238, 93, 41);
+    padding: 10px 40px ;
+    border-radius: 15px;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+}
+
+.section1-div{
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+#section2-div1{
+       margin-left: 15px;
+       flex: 1 2 300px;
+       padding-left: 200px;
+       padding-top: 50px;
+}
+#section2-div2{
+     margin-right: 15px;
+     padding-right: 200px;
+}
+.bg-image{
+    background-image:url("images/shape/7.png");
+    background-color: palegoldenrod;
+    background-size: cover;
+    
+}
+.box{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-left: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 10px  gray;
+}
+.image-size{
+    width: 340px ;
+}
